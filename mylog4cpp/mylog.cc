@@ -39,7 +39,7 @@
  Mylog::~Mylog(){ 
 		_category->Category::shutdown(); 
 		 } 
- void Mylog::closeLog(){//使用日志系统的都必须在结束处显示关闭 
+ void Mylog::closeLog(){// 
 		delete log; 
 		 } 
  void Mylog::warn(const char *msg){ 
